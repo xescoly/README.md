@@ -1,14 +1,15 @@
-# Parámetros Técnicos y Normativa de Certificación
+## A. Parámetros Críticos de Certificación
+Se definen los siguientes valores arrojados por la máquina durante el proceso de certificación:
 
-En el proceso de certificación se aplican los estándares internacionales para garantizar la integridad de la transmisión de datos.
+* **Mapa de Cableado (Wiremap):** Indica la continuidad y correcta posición de los pines siguiendo las normas **T568A/B**.
+* **Longitud:** Corresponde a la distancia física del cable, considerando un límite de **90 metros** para el enlace permanente.
+* **Pérdida de Inserción (Atenuación):** Representa el debilitamiento de la señal a lo largo del cable conforme se propaga por el medio.
+* **Paradiastofonía (NEXT):** Se refiere a la interferencia producida entre pares adyacentes en el extremo cercano del enlace.
 
-## 1. Marco Normativo
-Se utiliza como referencia la norma **ANSI/TIA-568**, la cual establece los requisitos mínimos para el cableado estructurado en edificios comerciales. Esta normativa permite estandarizar la topología y los parámetros de desempeño para asegurar la interoperabilidad en sistemas de telecomunicaciones.
+## B. Funciones de la Certificadora
+Se describe el funcionamiento de las herramientas integradas en el equipo **NetChaser**:
 
-## 2. Definición de Parámetros Eléctricos
-Para determinar si un enlace es apto para el transporte de datos a alta velocidad (Gigabit Ethernet), se evalúan los siguientes fenómenos físicos:
-
-* **Atenuación (Pérdida de Inserción):** Se define como la disminución de la potencia de la señal a medida que se propaga por el medio físico. Es causada por la resistencia del cobre y aumenta con la longitud del enlace.
-* **NEXT (Near-End Crosstalk):** Se refiere a la interferencia o acoplamiento no deseado entre pares de hilos en el extremo cercano al transmisor. Un valor deficiente impide una comunicación clara.
-* **Mapa de Cableado (Wiremap):** Se emplea para verificar la continuidad física de los ocho conductores y el cumplimiento de la secuencia de colores T568B.
-* **Relación Señal-Ruido (SNR):** Se analiza la diferencia entre la intensidad de la señal y el ruido ambiental para evitar la pérdida de paquetes.
+1. **Auto-Test:** Ejecución de la suite completa de pruebas técnicas según la categoría configurada, como **Cat 5e, 6 o 6a**.
+2. **Verificación de PoE:** Permite medir la capacidad de carga y el voltaje real disponible en los hilos del cable.
+3. **Prueba de DHCP/Ping:** Verificación de conectividad lógica y asignación de dirección **IP** tras asegurar la integridad de la capa física.
+4. **Localizador de Fallas (TDR):** Función utilizada para identificar a cuántos metros exactos se encuentra un corte o cortocircuito mediante reflectometría.

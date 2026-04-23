@@ -3,8 +3,8 @@ Se definen los siguientes valores arrojados por la máquina durante el proceso d
 
 * **Mapa de Cableado (Wiremap):** Indica la continuidad y correcta posición de los pines siguiendo las normas **T568A/B**.
 * **Longitud:** Corresponde a la distancia física del cable, considerando un límite de **90 metros** para el enlace permanente.
-* **Pérdida de Inserción (Atenuación):** Representa el debilitamiento de la señal a lo largo del cable conforme se propaga por el medio.
-* **Paradiastofonía (NEXT):** Se refiere a la interferencia producida entre pares adyacentes en el extremo cercano del enlace.
+* **Pérdida de Inserción (Atenuación):** Representa el debilitamiento de la señal a medida que viaja por el cable. Se mide en decibelios (dB) y aumenta proporcionalmente con la longitud del tramo, la temperatura ambiente y la frecuencia de operación.
+* **Paradiastofonía (NEXT):** Interferencia que ocurre cuando la señal de un par se "pasa" a otro par adyacente en el extremo cercano del enlace. Se busca que este valor sea alto en dB, lo que indica un mayor aislamiento entre hilos.
 
 ## B. Funciones de la Certificadora
 Se describe el funcionamiento de las herramientas integradas en el equipo **NetChaser**:

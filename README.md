@@ -12,6 +12,12 @@
 
 ## Alcance del Proyecto
 El presente proyecto tiene como objetivo realizar la certificación técnica de enlaces de par trenzado (UTP) dentro de un entorno de laboratorio, simulando una implementación de red LAN corporativa. 
+## Resumen Ejecutivo de Certificación
+| Categoría de Red | Puntos Totales | Puntos Aprobados | Puntos Fallidos | Cumplimiento |
+| :--- | :---: | :---: | :---: | :---: |
+| Cat 5e (TIA/EIA-568) | 3 | 2 | 1 | 66.6% |
+
+**Nota:** Los puntos aprobados validan la capacidad de transporte para 1000Base-T, mientras que el punto fallido ha sido diagnosticado para su pronta reparación.
 
 La actividad se desglosa en los siguientes puntos clave:
 

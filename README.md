@@ -1,6 +1,8 @@
-# Defensa Técnica: Certificación de Redes UTP
+#  Defensa Técnica y Certificación de Redes UTP
 *Institución:* INACAP Sede La Serena 
-*Carrera:* Ingeniería en Telecomunicaciones 
+
+*Carrera:* Ingeniería en Telecomunicaciones y servicios digitales.
+
 *Asignatura:* Certificación de Cableado Estructurado 
 
 ## Integrantes

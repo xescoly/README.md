@@ -2,6 +2,8 @@
 
 Para la ejecución de las pruebas de campo, se utilizó el certificador **Platinum Tools NetChaser**, equipado con el módulo **TMA050-NC**. Este equipo permite validar la capacidad de transporte de datos y la integridad física del cableado estructurado.
 
+<img width="397" height="559" alt="image" src="https://github.com/user-attachments/assets/5f519b67-3409-4938-8c1e-8181485bcc07" />
+
 ## 1. Configuración de la Prueba
 Antes de iniciar las mediciones, se procedió con la configuración de los parámetros en el equipo:
 * **Módulo de Prueba:** TMA050-NC.

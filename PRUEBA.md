@@ -7,7 +7,7 @@ A continuación se detallan los valores obtenidos directamente del equipo certif
 
 | Punto de Red | Ubicación | Resultado (PASS/FAIL) | Longitud (m) | BERT (Errores) | SNR Promedio |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **CABLE009** | PUNTO_21 | **PASS** | 19.2 m | 0 errores | 30.1 dB |
+| **CABLE009** | PUNTO_20 | **PASS** | 19.2 m | 0 errores | 30.1 dB |
 | **CABLE006** | PUNTO_19 | **PASS** | 18.9 m | 0 errores | 29.6 dB |
 | **CABLE010** | PUNTO_18 | **FAIL** | 18.8 m | **FAIL** | 29.5 dB |
 
@@ -26,11 +26,15 @@ En los puntos con resultado **PASS** (PUNTO_21 y PUNTO_19), se utilizó la funci
 
 ## 4. Evidencia Fotográfica de Mediciones
 
-A continuación, se adjuntan las capturas de pantalla obtenidas directamente del equipo **NetChaser TNC950** para cada punto de red testeado:
+A continuación, se adjuntan las capturas de pantalla obtenidas directamente del equipo **NetChaser TNC950** para cada punto de red testeado
+
+
+##punto 18 tipo rj45, cable cat5e: no se aprecian errores en la medicion ni mayores inconvenientes 
 <img width="739" height="1600" alt="WhatsApp Image 2026-04-21 at 19 40 35" src="https://github.com/user-attachments/assets/ca441125-12c9-48c1-9f5e-6bcdd5148d1a" />
-
+## punto 19 tipo rj45, cable cat5e: no se aprecian errores en la medicion ni mayores inconvenientes 
 <img width="739" height="1600" alt="WhatsApp Image 2026-04-21 at 19 40 36" src="https://github.com/user-attachments/assets/7a21b8b3-ad3f-497f-a7ac-1b2af794cf62" />
-
+## punto 20?21 tipo rj45, cable cat5e: el puerto fisico posee dos numeros asignados, pero con las pruebas se determino que es el 20, este obtuvo un bert fail con todos los pares conectados, segun el analsis se determino que el error ocurrio por una atenuacion signifcativa 
+lo que provoca a su vez perdida de paquetes haciendo que sea psoible una conexion, pero muy poco estable y nada recomendada, raelizando una pequeña limpieza en los puertos y verificando que todo estuviera bien en el patch panel decidimos realizar nuevmanete la prueba pero la respuesta fue la misma y concluimos que el problema estaba en una zona que no tenemos acceso 
 <img width="739" height="1600" alt="WhatsApp Image 2026-04-21 at 19 40 37" src="https://github.com/user-attachments/assets/a154f96a-1bc9-4b13-9d5d-368beb7549b9" />
 
 
